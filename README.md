@@ -6,7 +6,7 @@ Chronoswim
 
 Demo
 ----------
-![Demo animation](/demo.gif)
+![Demo animation](/screenshot.png)
 
 A Java Swing application to record competitive races times and keep a database file of races results, 
 using a MVC architectural pattern and performing CRUD on a CSV file of records. Compile with Java 1.7 or higher.
