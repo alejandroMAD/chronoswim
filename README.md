@@ -8,19 +8,22 @@ Demo
 ----------
 ![Demo screenshot](/screenshot.png)
 
-A Java Swing application to record competitive races times and keep a database file of races results, 
+A Java Swing application to record times of competitive races and keep a database file of medalists and results, 
 using a MVC architectural pattern and performing CRUD on a CSV file of records. Compile with Java 1.8 or higher.
 
 Features
 -------------------
-* Races allow registration of a name of the event, the date-time stamp and names of 8 competitors.
+* Races allow the registration of the name of the event, the date-time stamp and the names of 8 competitors.
 * A race can be run without specifying a name ("Default Race" will be used), but not without registering 8 competitors, with form validation rules to enforce it.
-* The race clock is shown in a format: minutes:seconds,fractionSeconds similarly to real time sports events.
-* A race Timer allows to get the individual finish time of every competitor.
+* The race clock is shown in a custom SportsTimeFormat [minutes:seconds,fractionSeconds] similarly to real time sports events.
+* A race Timer allows getting the individual finishing time of every competitor.
 * Races results can be saved in a plain CSV file including the names and times of the athletes finishing in the first, second and third place.
+* The database stored results populate a JTable in the view.
 * CRUD database operations can be performed on the dynamically indexed CSV file of races records.
-* Updating of records is restricted to modifying the race name only to prevent the tampering of sports events results.
+* A set of demo records from real races in the olympic swimming history can be pushed to the table and database for testing and educational purposes. 
+* Updating of records is restricted to modifying just the name of the race to prevent tampering of sports events results.
 
+The use of a plain CSV file to store records isn't the optimal solution but it has been used in this project for educational purposes as part of an exercise for the Data Access module of Multiplatform Applications Development.
 
 Credits
 -------------------
