@@ -6,6 +6,7 @@ import view.TablePanel;
 
 /**
  * @author Alejandro M. Gonzalez
+ * Demodatafix
  *
  */
 public class DemoDataReader {
