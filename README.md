@@ -23,7 +23,7 @@ Features
 * A set of demo records from real races in the olympic swimming history can be pushed to the table and database for testing and educational purposes. 
 * Updating of records is restricted to modifying just the name of the race to prevent tampering of sports events results.
 
-The use of a plain CSV file to store records isn't the optimal solution but it has been used in this project for educational purposes as part of an exercise for the Data Access module of Multiplatform Applications Development.
+The use of a plain CSV file to store records isn't the optimal solution but it has been chosen in this project for educational purposes as part of an exercise for the Data Access module of Multiplatform Applications Development.
 
 Credits
 -------------------
