@@ -10,6 +10,13 @@ import view.Frame;
 /**
  * @author Alejandro M. Gonzalez
  *
+ * A class to manage the records of data from races.
+ * Names, date-time, participants and ranking of races are showed
+ * in the JTable view and stored in a CSV file in the working directory,
+ * so DatabaseController both manages the basic CRUD operations in this file
+ * and updates the view while handling the events of the add, delete
+ * and update buttons.
+ * 
  */
 public class DatabaseController implements ActionListener {
 	
@@ -31,7 +38,6 @@ public class DatabaseController implements ActionListener {
 		if (lastID > 0) {
 			populateTableFromCsv();			
 		} else {
-			this.lastID = demoDataReader.getDemoEntries().length;
 			createDemoData();
 		}
 	}
@@ -98,7 +104,7 @@ public class DatabaseController implements ActionListener {
 	}
 	
 	/**
-	 * Populates JTable view with races records from the CSV file
+	 * Populates the JTable view with records of races from the CSV file
 	 */
 	public void populateTableFromCsv() {
 		
@@ -110,8 +116,8 @@ public class DatabaseController implements ActionListener {
 	}
 	
 	/**
-	 * Populates JTable view with a set of races records demo data
-	 * if there isn't any records and add the records to the CSV file
+	 * Populates the JTable view with a set of records of demo data
+	 * if there isn't any records yet, and add the demo entries to the CSV file
 	 */
 	public void createDemoData() {
 		String[][] demoEntries = demoDataReader.readDemoData();
