@@ -23,7 +23,7 @@ Características
 * Una colección de registros predefinidos de carreras auténticas de la natación olímpica puede utilizarse en la tabla y base de datos para fines de prueba y aprendizaje.
 * La actualización de registros está restringida a modificar el nombre de la carrera para evitar la manipulación de los resultados de eventos deportivos.
 
-El uso de un fichero sencillo de tipo CSV como "base de datos" no es una solución óptima, pero lo he elegido para este proyecto con fines educativos y como parte de un ejercicio del módulo de Acceso a Datos del CFGS de Desarrollo de Aplicaciones Multiplataforma.
+El uso de un fichero sencillo de tipo CSV como "base de datos" no es una solución óptima, pero lo he elegido para este proyecto con fines educativos y en cumplimiento de los requisitos de un ejercicio del módulo de Acceso a Datos del CFGS de Desarrollo de Aplicaciones Multiplataforma.
 
 Reconocimiento
 -------------------
