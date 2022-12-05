@@ -4,7 +4,7 @@ Chronoswim
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/alejandroMAD/chronoswim/blob/master/README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/alejandroMAD/chronoswim/blob/master/README.es.md)
 
-Demostración
+Interfaz de usuario
 ----------
 ![Captura de pantalla](/screenshot.png)
 
